@@ -18,6 +18,8 @@ body {
 
   .card {
     position: relative;
+    width: 100%;
+    max-width: 255px;
     list-style: none;
     border-radius: 10px;
     border: 5px solid #000;
@@ -118,7 +120,9 @@ body {
       padding: 1em;
     }
 
-    
+    .card-info{
+      padding-bottom: 3em;
+    }
   }
 
   
